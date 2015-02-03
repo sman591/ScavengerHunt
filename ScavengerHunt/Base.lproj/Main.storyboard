@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Add View Controller-->
+        <!--Add Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AddViewController" customModule="ScavengerHunt" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +20,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tjF-Vs-XHE">
                                 <rect key="frame" x="26" y="94" width="548" height="30"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -30,7 +30,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="tjF-Vs-XHE" secondAttribute="trailing" constant="10" id="vrk-VV-JfQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="c0W-0n-YzR">
+                    <navigationItem key="navigationItem" title="Add Item" id="c0W-0n-YzR">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="P4D-Vw-EnY">
                             <connections>
                                 <action selector="cancelButton:" destination="BYZ-38-t0r" id="12A-aM-0Ny"/>
@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="2118" y="374"/>
         </scene>
-        <!--List View Controller-->
+        <!--Scavenger Hunt-->
         <scene sceneID="9am-8K-nK3">
             <objects>
                 <tableViewController id="BOZ-R1-3ai" customClass="ListViewController" customModule="ScavengerHunt" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,7 +80,7 @@
                             <outlet property="delegate" destination="BOZ-R1-3ai" id="7vD-ri-JJl"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Enh-ny-YCR">
+                    <navigationItem key="navigationItem" title="Scavenger Hunt" id="Enh-ny-YCR">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="1ii-E8-UCF">
                             <connections>
                                 <segue destination="yw4-rP-KKq" kind="presentation" id="4Vz-a2-bwy"/>

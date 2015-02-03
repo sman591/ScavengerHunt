@@ -14,6 +14,7 @@
 		1737F4CF1A803798000C8CB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1737F4CE1A803798000C8CB0 /* Images.xcassets */; };
 		1737F4D21A803798000C8CB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1737F4D01A803798000C8CB0 /* LaunchScreen.xib */; };
 		1737F4DE1A803798000C8CB0 /* ScavengerHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737F4DD1A803798000C8CB0 /* ScavengerHuntTests.swift */; };
+		175969891A8062300013FAE8 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175969881A8062300013FAE8 /* ScavengerHuntItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1737F4D71A803798000C8CB0 /* ScavengerHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavengerHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1737F4DC1A803798000C8CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1737F4DD1A803798000C8CB0 /* ScavengerHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntTests.swift; sourceTree = "<group>"; };
+		175969881A8062300013FAE8 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				1737F4C71A803798000C8CB0 /* AppDelegate.swift */,
 				1737F4C91A803798000C8CB0 /* AddViewController.swift */,
 				1737F4CB1A803798000C8CB0 /* Main.storyboard */,
+				175969881A8062300013FAE8 /* ScavengerHuntItem.swift */,
 				1735DBAE1A80441C00D9F654 /* ListViewController.swift */,
 				1737F4CE1A803798000C8CB0 /* Images.xcassets */,
 				1737F4D01A803798000C8CB0 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 			files = (
 				1737F4CA1A803798000C8CB0 /* AddViewController.swift in Sources */,
 				1737F4C81A803798000C8CB0 /* AppDelegate.swift in Sources */,
+				175969891A8062300013FAE8 /* ScavengerHuntItem.swift in Sources */,
 				1735DBAF1A80441C00D9F654 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
